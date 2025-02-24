@@ -5,28 +5,8 @@ A comprehensive SAP ABAP shipment tracking report that integrates delivery, mate
 
 ### Data Integration
 - **Shipment Data (VTTP/VTTK)**
-  - Shipment Numbers (TKNUM)
-  - Creation Dates (ERDAT)
-  - Delivery References (VBELN)
-  - Shipment Texts (TEXT1-4)
-  - Processing Users (ERNAM/AENAM)
-  - Carrier Information (TDLNR)
-
 - **Delivery Details (LIPS/LIKP)**
-  - Plant Information (WERKS)
-  - Storage Locations (LGORT)
-  - Material Data (MATNR, MATWA)
-  - Quantities and Units (LFIMG, VRKME)
-  - Weights (NTGEW, GEWEI)
-  - Reference Documents (VGBEL)
-  - Delivery Dates and Times (ERDAT, ERZET)
-  - Goods Movement Dates (WADAT_IST)
-  - Shipping Points (VSTEL)
-  - Routes (ROUTE)
-  - Sold-to Parties (KUNAG)
-
 - **Billing Information (VBRK)**
-  - Net Values (NETWR)
 
 ### Key Features
 - Multi-table data integration with optimized joins
