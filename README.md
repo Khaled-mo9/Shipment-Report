@@ -46,3 +46,100 @@ A comprehensive SAP ABAP shipment tracking report that integrates delivery, mate
 - Financial value tracking
 - Complete audit trail
 - Operational efficiency insights
+
+### Presentation Layer
+- ALV Grid display
+- Interactive user interface
+- Custom field catalog
+- Layout variants
+
+# Screen Documentation
+
+## 1. Selection Screen
+<p align="center">
+  <em>Main selection screen featuring delivery filtering, plant selection, creation date range, and field catalog configuration options</em>
+  <br>
+  <img src="Shipment/screens/1.png" alt="Selection Screen">
+</p>
+
+## 2. Validation Rules
+
+### Status Selection Validation
+<p align="center">
+  <em>Validation preventing simultaneous selection of 'All' with specific status options (Old/Temporary/New)</em>
+  <br>
+  <img src="Shipment/screens/2.png" alt="Status Validation">
+</p>
+
+### Date Range Validation
+<p align="center">
+  <em>Creation date (ERDAT) validation preventing future date selection</em>
+  <br>
+  <img src="Shipment/screens/3.png" alt="Date Validation">
+</p>
+
+### Delivery Number Validation
+<p align="center">
+  <em>Delivery number (VBELN) range validation ensuring lower limit doesn't exceed upper limit</em>
+  <br>
+  <img src="Shipment/screens/4.png" alt="Delivery Validation">
+</p>
+
+## 3. ALV Output Display
+
+<p align="center">
+  <em>ALV Grid display showing shipment details with color-coding based on status</em>
+  <br>
+  <img src="Shipment/screens/5.png" alt="ALV Default View">
+</p>
+
+<p align="center">
+  <em>Different color schemes and groupings based on shipment criteria</em>
+  <br>
+  <img src="Shipment/screens/8.png" alt="ALV Alternative View 1">
+  <br>
+  <img src="Shipment/screens/9.png" alt="ALV Alternative View 2">
+</p>
+
+## 4. Additional Features
+
+### Print Functionality
+<p align="center">
+  <em>Print preview and options accessed via toolbar print icon</em>
+  <br>
+  <img src="Shipment/screens/6.png" alt="Print Options">
+</p>
+
+### Layout Management
+<p align="center">
+  <em>Layout selection between user-specific and default system layouts</em>
+  <br>
+  <img src="Shipment/screens/7.png" alt="Layout Selection">
+</p>
+
+### Navigation Feature
+<p align="center">
+  <em>Direct navigation to ZSHIPMENT_DEMO transaction via shipment number (TKNUM) hotspot</em>
+  <br>
+  <img src="Shipment/screens/10.png" alt="Transaction Navigation">
+</p>
+
+### Status Filtering
+<p align="center">
+  <em>Filtered view when 'New' status is selected, showing only relevant records</em>
+  <br>
+  <img src="Shipment/screens/11.png" alt="Status Filter">
+</p>
+
+## Technical Features
+- Interactive ALV Grid
+- Color-coding based on status
+- Hotspot navigation
+- Multiple layout options
+- Print functionality
+- Status-based filtering
+- Comprehensive validation rules
+- Direct transaction navigation
+
+
+  
