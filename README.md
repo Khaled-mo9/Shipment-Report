@@ -121,5 +121,37 @@ A comprehensive SAP ABAP shipment tracking report that integrates delivery, mate
 - Comprehensive validation rules
 - Direct transaction navigation
 
+## New Feature: Adobe Form Integration
 
+### Printing Functionality
+The system now supports printing shipment reports using Adobe Forms with the following features:
+
+#### How to Print
+1. **Access Print Function**
+   - Click the print button in the toolbar
+   - Alternatively, use the keyboard shortcut `SHIFT + F1`
   
+### Print Action
+<p align="center">
+  <em>Click to print button into the toolbar or press SHIFT+F1</em>
+  <br>
+  <img src="Shipment/screens/print.png" alt="print">
+</p>
+
+### Output Device and Print Preview
+<p align="center">
+  <em>Choose LP01 as output device and click on print preview</em>
+  <br>
+  <img src="Shipment/screens/action.png" alt="action">
+</p>
+
+### Popup to open or save pdf on the desktop
+<p align="center">
+  <em>Choose LP01 as output device and click on print preview</em>
+  <br>
+  <img src="Shipment/screens/openpdf.png" alt="openpdf">
+</p>
+
+*PDF download dialog*
+![PDF Output](Shipment/adf.pdf)
+
