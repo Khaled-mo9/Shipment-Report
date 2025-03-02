@@ -145,13 +145,18 @@ The system now supports printing shipment reports using Adobe Forms with the fol
   <img src="Shipment/screens/action.png" alt="action">
 </p>
 
-### Popup to open or save pdf on the desktop
+### Popup to open or save PDF on the desktop
 <p align="center">
-  <em>Choose LP01 as output device and click on print preview</em>
+  <em>Choose open PDF or save it on the desktop.</em>
   <br>
   <img src="Shipment/screens/openpdf.png" alt="openpdf">
 </p>
 
 *PDF download dialog*
-![PDF Output](Shipment/adf.pdf)
+## Shipment Report Preview
+
+![Page 1](Shipment/adf.pdf)
+![Page 2](Shipment/adf.pdf)
+
+[📥 Download Complete PDF](Shipment/adf.pdf)
 
