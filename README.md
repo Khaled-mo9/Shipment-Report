@@ -130,7 +130,9 @@ The system now supports printing shipment reports using Adobe Forms with the fol
 1. **Access Print Function**
    - Click the print button in the toolbar
    - Alternatively, use the keyboard shortcut `SHIFT + F1`
-  
+
+# Screen Documentation for PDF Abdobe Form  
+
 ### Print Action
 <p align="center">
   <em>Click to print button into the toolbar or press SHIFT+F1</em>
@@ -152,13 +154,8 @@ The system now supports printing shipment reports using Adobe Forms with the fol
   <img src="Shipment/screens/openpdf.png" alt="openpdf">
 </p>
 
-*PDF download dialog*
-## Shipment Report Preview
+## Shipment Report PDF Preview
+![Page 1](Shipment/page1.png)
 
-![Page 1](Shipment/adf.pdf)
-![Page 2](Shipment/adf.pdf)
-
-[📥 Download Complete PDF](Shipment/adf.pdf)
-
-## Documentation
-[![PDF](https://img.shields.io/badge/Download-PDF-red.svg)](Shipment/adf.pdf)
+## PDF
+[📥 Download Complete PDF] [![PDF](https://img.shields.io/badge/Download-PDF-red.svg)](Shipment/adf.pdf)
