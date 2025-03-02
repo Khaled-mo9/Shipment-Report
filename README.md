@@ -160,3 +160,5 @@ The system now supports printing shipment reports using Adobe Forms with the fol
 
 [📥 Download Complete PDF](Shipment/adf.pdf)
 
+## Documentation
+[![PDF](https://img.shields.io/badge/Download-PDF-red.svg)](Shipment/adf.pdf)
